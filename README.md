@@ -1,5 +1,5 @@
-IPL Win Probability Predictor
-
+**IPL Win Probability Predictor
+**
 A ball-by-ball machine learning model that estimates the chasing team's chance of winning from any state of an IPL run chase — the same class of model broadcasters run live on screen.
 
 
