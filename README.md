@@ -1,6 +1,6 @@
 **IPL Win Probability Predictor**
 
-A ball-by-ball machine learning model that estimates the chasing team's chance of winning from any state of an IPL run chase — the same class of model broadcasters run live on screen.
+A ball-by-ball machine learning model that estimates the chasing team's chance of winning from any state of an IPL run chase the same class of model broadcasters run live on screen.
 
 
 Live app: <!-- paste your Streamlit URL here --> · Built with Python · scikit-learn · Streamlit
@@ -10,7 +10,7 @@ Live app: <!-- paste your Streamlit URL here --> · Built with Python · scikit-
 
 **The question**
 
-At any point in a run chase — say 62 needed off 40 balls with 5 wickets in hand — what is the batting team's real probability of getting over the line? Fans, commentators and even captains rely on gut feel anchored to a handful of famous chases. This project replaces that gut feel with a number grounded in every IPL chase ever recorded.
+At any point in a run chase say 62 needed off 40 balls with 5 wickets in hand what is the batting team's real probability of getting over the line? Fans, commentators and even captains rely on gut feel anchored to a handful of famous chases. This project replaces that gut feel with a number grounded in every IPL chase ever recorded.
 
 **Key finding**
 
@@ -18,7 +18,9 @@ Chases that need ~120 off the last 10 overs succeed just 22% of the time. Human 
 
 **Results**
 
-Metric Score What it means AUC0.865 Strong separation of wins vs losses on an honest, unseen test set Brier score 0.151 Probabilities are well-calibrated, not just directionally correct Training states 138,000+ Ball-by-ball chase snapshots from 1,100+ IPL matches
+Metric Score What it means AUC0.865 Strong separation of wins vs losses on an honest
+unseen test set Brier score 0.151 Probabilities are well-calibrated
+not just directionally correct Training states 138,000+ Ball-by-ball chase snapshots from 1,100+ IPL matches
 
 **Why this project is honest about leakage**
 
@@ -44,8 +46,3 @@ App — a Streamlit interface where you enter a live match state and get an inst
 **Tech stack**
 Python · pandas · scikit-learn · Logistic Regression · probability calibration · Streamlit
 
-
-
-Why leakage-safe evaluation matters more than a big headline accuracy number.
-How to turn noisy sporting outcomes into calibrated probabilities you can actually trust.
-Communicating an uncomfortable result (the 22% finding) clearly, without overselling the model.
