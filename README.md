@@ -18,9 +18,9 @@ Chases that need ~120 off the last 10 overs succeed just 22% of the time. Human 
 
 **Results**
 
-Metric Score What it means AUC0.865 Strong separation of wins vs losses on an honest
-unseen test set Brier score 0.151 Probabilities are well-calibrated
-not just directionally correct Training states 138,000+ Ball-by-ball chase snapshots from 1,100+ IPL matches
+1. Metric Score What it means AUC0.865 Strong separation of wins vs losses on an honest
+2. unseen test set Brier score 0.151 Probabilities are well-calibrated
+3. not just directionally correct Training states 138,000+ Ball-by-ball chase snapshots from 1,100+ IPL matches
 
 **Why this project is honest about leakage**
 
