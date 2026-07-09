@@ -42,5 +42,5 @@ An early Random Forest scored 99% accuracy a classic red flag. The cause was dat
 
 
 **Tech stack**
-Python · pandas · scikit-learn · Logistic Regression · probability calibration · Streamlit
+- Python · pandas · scikit-learn · Logistic Regression · probability calibration · Streamlit
 
